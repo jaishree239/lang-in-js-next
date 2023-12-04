@@ -8,6 +8,7 @@ import Negotiator from 'negotiator'
 
 function getLocale(request) {
   // Negotiator expects plain object so we need to transform headers
+  // Testing
   const negotiatorHeaders = {}
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
 
