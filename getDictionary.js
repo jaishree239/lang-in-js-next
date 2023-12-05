@@ -7,3 +7,5 @@ const dictionaries = {
 export const getDictionary = (lang) => {
     return dictionaries[lang]();
 }
+
+// checking remote url change
